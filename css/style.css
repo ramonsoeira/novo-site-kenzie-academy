@@ -18,8 +18,12 @@
         }
         /*                                                                                      *
  *                                     header navbar                                    *
- *                                                                               */
+ *            
+                                                                           */
         
+        body.scroll-body{
+            overflow: hidden;
+        }
         .logo {
             width: 50px;
         }
