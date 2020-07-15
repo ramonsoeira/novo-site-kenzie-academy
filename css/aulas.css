@@ -274,3 +274,19 @@ div.pg-curriculo{
 	    max-width: 100%;
 	}
 }
+@media(max-width: 555px){
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2){
+		    padding-top: 0;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1) {
+	    padding-bottom: 275px;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.aulas-ao-vivo.pg .ka_container figure {
+	    transform: translateX(-50%);
+	    top: 20%;
+	}
+}
