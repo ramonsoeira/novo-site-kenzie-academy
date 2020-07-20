@@ -1431,7 +1431,11 @@
     top: 8px;
     cursor: pointer;
 }
-
+ #overlayClose{
+    height: 100vh;
+    display: block;
+    width: 74vw;
+}
 .kz-lead-form-close svg {
     width: 24px;
 }
